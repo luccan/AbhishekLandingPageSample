@@ -1,0 +1,22 @@
+.intro-header {
+	padding-top: 120px;
+	padding-bottom: 60px;
+}
+
+.title {
+	text-align: center;
+}
+
+.section-heading-spacer{
+	padding-bottom: 20px;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+body {
+	background-image: url("../img/dark_mosaic.png");
+	background-attachment: fixed;
+}

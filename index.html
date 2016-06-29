@@ -1,0 +1,288 @@
+
+
+<!DOCTYPE html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>My Landing Page</title>
+  <link rel="SHORTCUT ICON" href="./img/favicon.ico">
+
+  <!-- Bootstrap Core CSS -->
+  <link href="./css/bootstrap/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="./css/index.css" rel="stylesheet">
+</head>
+
+<body>
+	<!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+      <div class="container topnav">
+
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand topnav" href="./index.html#home"><img height="20px" src="./img/home.png" alt="logo"></img></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse">
+		
+			<!--Must be kept consistent across all 4 main pages-->
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="./index.html#about">About Me</a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li class="dropdown-header">Featured Projects</li>
+						<li><a href="./index.html#project1">Project1</a></li>
+						<li><a href="./index.html#project2">Project2</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a href="./resume.pdf">Projects PDF</a></li>
+					</ul>
+				</li>
+				<li><a href="./index.html#skill">Skills and Expertise</a></li>
+				<li><a href="./index.html#hobby">Hobbies and Interests</a></li>
+				<li><a href="./index.html#contact">Contact Me</a></li>
+			</ul>
+			<!--/Navbar Till here-->
+			
+        </div>
+      </div>
+    </nav>
+
+
+    <!-- Header -->
+    <a name="home"></a>
+    <div class="intro-header">
+      <div class="container">
+  			<div class="row">
+					<div class="col-md-offset-4 col-md-4 col-xs-offset-2 col-xs-8">
+						<img class="img-responsive img-circle" src="img/profile.jpg"></img>
+					</div>
+				</div>
+				<div class="row">
+					<div class="lead title">Abishek Bajaj</div>
+				</div>
+      </div>
+    </div>
+
+  <!-- Page Content -->
+  <a name="about"></a>
+    <div class="content-section-a community">
+
+      <div class="container">
+        <div class="row">
+					<hr class="section-heading-spacer">
+          <div class="col-md-6 col-xs-12">
+            <h2 class="section-heading">Handsome young boy:<br>Only hot dude in Singapore</h2>
+            <p class="lead">Lorem Ipsum!<br>
+			    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.<br/>
+				Find out about my <a href="#" id="mission-toggle">education</a>!</p>
+          </div>
+
+          <div class="col-md-6 col-xs-12">
+            <div id="latestEventsCarousel" class="carousel slide" data-ride="carousel">
+
+              <!-- Indicators -->
+    					<ol class="carousel-indicators">
+    						<li data-target="#latestEventsCarousel" data-slide-to="0" class="active"></li>
+    						<li data-target="#latestEventsCarousel" data-slide-to="1"></li>
+    						<li data-target="#latestEventsCarousel" data-slide-to="2"></li>
+    					</ol>
+
+      				<!-- Wrapper for slides -->
+      				<div class="carousel-inner" role="listbox">
+
+                <div class="item active">
+      						<img src="./img/about/img1.jpg" alt="Event1">
+      						<div class="carousel-caption"><p>Cat 1</p></div>
+      					</div>
+
+      				  <div class="item">
+      						<img src="./img/about/img2.jpg" alt="Event2">
+      						<div class="carousel-caption"><p>Cat 2</p></div>
+      					</div>
+
+      					<div class="item">
+      						<img src="./img/about/img3.jpg" alt="Event3">
+      						<div class="carousel-caption"><p>Cat 3</p></div>
+      					</div>
+
+      				</div>
+
+      				<!-- Left and right controls -->
+      				<a class="left carousel-control" href="#latestEventsCarousel" role="button" data-slide="prev">
+      					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      					<span class="sr-only">Previous</span>
+      				</a>
+      				<a class="right carousel-control" href="#latestEventsCarousel" role="button" data-slide="next">
+      					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      					<span class="sr-only">Next</span>
+      				</a>
+			      </div>
+          </div>
+        </div>
+		
+		<a name="mission"></a>
+		<div id="mission-content" class="content-section-a">
+		  <div class="container">
+			<div class="row">
+			  <div class="col-md-6 col-xs-12">
+				<hr class="section-heading-spacer">
+				<h2 class="section-heading">Some JC</h2>
+				<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			  </div>
+			  <div class="col-md-6 col-xs-12 ">
+				<hr class="section-heading-spacer">
+				<h2 class="section-heading">SUTD</h2>
+				<p class="lead">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		
+      </div>
+      <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
+	<a name="project1"></a>
+	<a name="project2"></a>
+    <div class="content-section-b">
+      <div class="container">
+        <div class="row">
+					<hr class="section-heading-spacer">
+          <div class="col-md-6 col-md-push-6 col-md-6">
+            <h2 class="section-heading">Some ESD Projects</h2>
+            <p class="lead">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
+          </div>
+    			<div class="col-md-5 col-md-pull-6  col-md-6">
+    				<iframe height="300px" width="100%" src="http://www.youtube.com/embed/YQ7SzAt3Vyw?autoplay=0" frameborder="0"></iframe>
+    			</div>
+        </div>
+      </div>
+    </div>
+
+	<a name="skill"></a>
+  	<div class="content-section-a">
+          <div class="container">
+  			<div class="row">
+  				<div class="col-md-12">
+  					<hr class="section-heading-spacer">
+  					<div class="clearfix"></div>
+
+  					<h2 class="section-heading">Skills and Expertise</h2>
+  				</div>
+
+  				<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+  					R 
+  				</li>
+  				<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+  					Business Analytics
+  				</li>
+  				<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+  					Web Crawling
+  				</li>
+  				<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+  					Finance
+  				</li>
+  				<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+  					Bullshitting
+  				</li>
+  				<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+  					Blah
+  				</li>
+  			</div>
+  		</div>
+  	</div>
+
+	<a name="hobby"></a>
+    <div class="content-section-b">
+      <div class="container">
+        <div class="row">
+					<hr class="section-heading-spacer">
+          <div class="col-md-5 col-sm-12">
+            <h2 class="section-heading">Hobbies and Interests</h2>
+            <div id="hobby-list-group" class="list-group">
+							<a href="javascript:update_hobby_img('img/profile.jpg')" class="list-group-item active">Public Speaking</a>
+							<a href="javascript:update_hobby_img('img/home.png')" class="list-group-item">Competition</a>
+							<a href="javascript:update_hobby_img('img/about/img1.jpg')" class="list-group-item">Sleeping</a>
+							<a href="javascript:update_hobby_img('img/about/img2.jpg')" class="list-group-item">Gaming</a>
+							<a href="javascript:update_hobby_img('img/about/img3.jpg')" class="list-group-item">Coding</a>
+						</div>
+          </div>
+          <div class="col-md-7 col-sm-12">
+            <img id="hobby-img" class="img-responsive" src="img/profile.jpg"></img>
+          </div>
+        </div>
+      </div>
+    </div>
+
+	<a name="contact"></a>
+    <div class="banner">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-12">
+            <hr class="section-heading-spacer">
+            <div class="clearfix"></div>
+            <h2 class="section-heading">Connect with Abhishek</h2>
+          </div>
+	      </div>
+
+        <div class="row">
+          <div class="col-xs-12">
+            <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> <a href="mailto:abhishek_bajaj@gmail.com">abhishek_bajaj@gmail.com</span></a><br />
+            <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> <a href="tel:12345678">(+65) 1234 5678</span></a> (Abhishek Bajaj)<br />
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- /.banner -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p class="copyright text-muted small">Copyright &copy; Abhishek Bajaj 2016 All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="./js/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="./js/bootstrap.min.js"></script>
+
+		<!--animation scripts-->
+		<script>
+			$("#mission-content").hide();
+			document.getElementById("mission-toggle").onclick = function(){
+				$("#mission-content").slideToggle("slow");
+				return false; //disable href navigation
+			};
+			function update_hobby_img(path){
+				$(document.getElementById("hobby-img")).attr("src", path);
+				$(document.getElementById('hobby-list-group')).children().each(function () {
+					$(this).removeClass('active');
+					if ($(this).attr('href').indexOf(path) > -1){
+						$(this).addClass('active');
+					}
+				});
+			}
+		</script>
+
+</body>
+
+</html>
